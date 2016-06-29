@@ -45,25 +45,39 @@
     <!-- SLIDES -->
     <slide class="" id="slide-1" style="background:;">
   <hgroup>
-    <h2>Read-And-Delete</h2>
+    <h2>Taylor Rule Calculator</h2>
   </hgroup>
   <article data-timings="">
-    <ol>
-<li>Edit YAML front matter</li>
-<li>Write using R Markdown</li>
-<li>Use an empty line followed by three dashes to separate slides!</li>
-</ol>
+    <p>This presentation is a project assignment for the Coursera Developing Data Products class. The tool presented here should NOT be used for any purpose in its present form. </p>
+
+<p>The shinyapp is an online calculator the computes and displays the Taylor rule using data downloaded from <a href="https://fred.stlouisfed.org/">FRED</a>. The taylor rule equation is: </p>
+
+<p>\[  N = I + E + i(T – I) + o(\log(P) – \log(O)) \]</p>
+
+<h3>Variables</h3>
+
+<ul>
+<li><p>N - Suggested nominal interest rate. The after inflation zero risk return for renting money. Usually 2 or 3%. </p></li>
+<li><p>I - Current interest rate. Taylor used the year over year GDP deflator, but I&#39;m using the year over year CPI differential. I think CPI is a better indicator of inflation for technical reasons having to do with basket of good changes. CPI based inflation is normally about 1% higher than deflator inflation. </p></li>
+<li><p>i - inflation coefficient. This is a measured quantity that is estimated at about .5. </p></li>
+</ul>
 
   </article>
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="class" id="id" style="background:;">
+<slide class="" id="slide-2" style="background:;">
   <hgroup>
-    <h2>Slide 2</h2>
+    <h2>More Varibles</h2>
   </hgroup>
   <article data-timings="">
-    <p>Testing LaTeX: $  N = I + E + i(T – I) + o(\log(P) – \log(O)) $</p>
+    <ul>
+<li><p>T - Target inflation rate. Most economists agree that inflation in the 2%-3% range decreases friction in labor markets without overly interfering with price indicators. With 0 inflation, people in shrinking industries would have to take wage cuts, which they would hate. With high inflation, everybody becomes too interested in getting rid of cash to do more productive work. </p></li>
+<li><p>o - output coefficient. Another measured coefficient. Estimated at between 0 and .5.</p></li>
+<li><p>P - Potential output. The feds best guess at what the economy could produce at full capacity. If GDP is more than P, then we will see strong inflationary forces and producers compete for resources. Pulled from FRED.  </p></li>
+<li><p>O - Current output (GDP).  Total output of goods and services.  Pulled from FRED. </p></li>
+<li><p>F - The actual federal funds rate. Pulled from FRED. </p></li>
+</ul>
 
   </article>
   <!-- Presenter Notes -->
@@ -71,7 +85,35 @@
 
 <slide class="" id="slide-3" style="background:;">
   <hgroup>
-    <h2>Slide 3</h2>
+    <h2>Kicking off the application</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>The URL for the application is: </p>
+
+<p><a href="https://evaitl.shinyapps.io/taylor/">https://evaitl.shinyapps.io/taylor/</a></p>
+
+<p>The page lets you pick input parameters, adjust estimated parameters, set a date range, and plot the various series described above. </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Example plot:</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>An example plot with all of the options set would look like this: </p>
+
+<p><img src="assets/fig/unnamed-chunk-1-1.png" alt="plot of chunk unnamed-chunk-1"></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-5" style="background:;">
+  <hgroup>
+    <h2>Why have a rule?</h2>
   </hgroup>
   <article data-timings="">
     <blockquote>
@@ -90,57 +132,37 @@ bubble.&quot;</p>
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-4" style="background:;">
-  <hgroup>
-    <h2>Slide 4</h2>
-  </hgroup>
-  <article data-timings="">
-    
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-5" style="background:;">
-  <hgroup>
-    <h2>Slide 5</h2>
-  </hgroup>
-  <article data-timings="">
-    
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
     <slide class="backdrop"></slide>
   </slides>
   <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
     <ul>
       <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=1 title='Read-And-Delete'>
+        data-slide=1 title='Taylor Rule Calculator'>
          1
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=2 title='Slide 2'>
+        data-slide=2 title='More Varibles'>
          2
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=3 title='Slide 3'>
+        data-slide=3 title='Kicking off the application'>
          3
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=4 title='Slide 4'>
+        data-slide=4 title='Example plot:'>
          4
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=5 title='Slide 5'>
+        data-slide=5 title='Why have a rule?'>
          5
       </a>
     </li>

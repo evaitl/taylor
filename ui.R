@@ -3,8 +3,7 @@ library(dplyr)
 library(shiny)
 library(reshape2)
 
-# econ.rds is created by the separate fetch.R script. 
-S<-readRDS('econ.rds')
+
 
 # Define UI for application that draws a histogram
 ui <- shinyUI(fluidPage(
