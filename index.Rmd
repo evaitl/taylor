@@ -48,6 +48,8 @@ https://evaitl.shinyapps.io/taylor/
 
 The page lets you pick input parameters, adjust estimated parameters, set a date range, and plot the various series described above. 
 
+Source code on github is at https://github.com/evaitl/taylor
+
 --- 
 ## Example plot:
 An example plot with all of the options set looks like this: 

@@ -48,9 +48,11 @@ https://evaitl.shinyapps.io/taylor/
 
 The page lets you pick input parameters, adjust estimated parameters, set a date range, and plot the various series described above. 
 
+Source code on github is at https://github.com/evaitl/taylor
+
 --- 
 ## Example plot:
-An example plot with all of the options set would look like this: 
+An example plot with all of the options set looks like this: 
 
 ![plot of chunk unnamed-chunk-1](assets/fig/unnamed-chunk-1-1.png)
 
@@ -66,6 +68,3 @@ An example plot with all of the options set would look like this:
 > — Paul Krugman (2002)
 
 Central bankers, like everybody else, can become complacent and overly discount risks. Even though he was being egged on by people like this liberal Keynesian hack, Greenspan should have stuck to the Taylor rule after the 2001 recession. Holding rates too low for too long excerbated the housing bubble, which came crashing down in 2008. 
-
-
-
