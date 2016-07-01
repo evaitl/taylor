@@ -14,7 +14,7 @@ knit        : slidify::knit2slides
 
 This presentation is a project assignment for the Coursera Developing Data Products class. The tool presented here should NOT be used for any purpose in its present form. 
 
-The shinyapp is an online calculator the computes and displays the Taylor rule using data downloaded from [FRED](https://fred.stlouisfed.org/). The taylor rule equation is: 
+The shinyapp is an online calculator the computes and displays the [Taylor rule](https://en.wikipedia.org/wiki/Taylor_rule) using data downloaded from [FRED](https://fred.stlouisfed.org/). The Taylor rule equation is: 
 
 $$  N = I + E + i(T – I) + o(\log(P) – \log(O)) $$
 
