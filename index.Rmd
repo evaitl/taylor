@@ -88,6 +88,6 @@ input<-list(E=2, i=.5, o=.5, T=2, dispF=TRUE, dispI=TRUE, dispG=TRUE )
 > 
 > — Paul Krugman (2002)
 
-Central bankers, like everybody else, can become complacent and overly discount risks. Even though he was being egged on by people like this liberal Keynesian hack, Greenspan should have stuck to the Taylor rule after the 2001 recession. Holding rates too low for too long excerbated the housing bubble, which came crashing down in 2008. 
+Central bankers, like everybody else, can become complacent and overly discount risks. Even though he was being egged on by people like the above quoted liberal Keynesian hack, Greenspan should have stuck to the Taylor rule after the 2001 recession. Holding rates too low for too long excerbated the housing bubble, which came crashing down in 2008. 
 
 By not following a simple calculator rule, the FED cost the economy billions of dollars. 
